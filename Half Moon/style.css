@@ -1,0 +1,87 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  gap: 10px;
+}
+
+.moon1 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 0 rgb(105, 104, 104);
+}
+.moon2 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 0 rgb(124, 124, 124);
+}
+.moon3 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 0 rgb(135, 134, 134);
+}
+.moon4 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 7px 7px 0 rgb(158, 157, 157);
+}
+.moon5 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 9px 9px 0 rgb(170, 168, 168);
+}
+.moon6 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 11px 11px 0 rgb(188, 187, 187);
+}
+.moon7 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 13px 13px 0 rgba(213, 212, 212, 0.985);
+}
+.moon8 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 rgba(231, 229, 229, 0.967);
+}
+.moon9 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 17px 17px 0 rgba(229, 227, 227, 0.922);
+}
+.moon10 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 19px 19px 0 rgb(230, 235, 234);
+}
+.moon11 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 21px 21px 0 rgb(235, 234, 237);
+}
+.moon12 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 23px 23px 0 rgb(245, 244, 250);
+}
+.moon13 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 25px 25px 0 rgb(255, 255, 255);
+}
