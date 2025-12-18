@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .game-container {
+    text-align: center;
+    width: 300px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #board {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-gap: 10px;
+    margin: 20px auto;
+  }
+  
+  .tile {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .tile.correct {
+    background-color: #6aaa64;
+    color: white;
+  }
+  
+  .tile.present {
+    background-color: #c9b458;
+    color: white;
+  }
+  
+  .tile.absent {
+    background-color: #787c7e;
+    color: white;
+  }
+  
+  .input-section {
+    margin-top: 20px;
+  }
+  
+  #guess-input {
+    padding: 10px;
+    font-size: 1em;
+    width: 200px;
+  }
+  
+  #submit-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    background-color: #6aaa64;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #submit-button:hover {
+    background-color: #57944f;
+  }
+  
+  #message {
+    margin-top: 10px;
+    font-size: 1em;
+    color: red;
+  }
+  
